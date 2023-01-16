@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    .header{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    }
+    
+    .center ul li{
+    margin: 0 5px;
+    }
+    .header li img{
+        transform: scale(0.8);
+    }
+    .header li a{
+        font-family: 'Comfortaa' cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    text-transform: none;
+    transition: all 0.2s ease-in;
+    }
+    .header li a:hover{
+        transition: all 0.2s ease-in;
+        transform: scale(1.1);
+        color: #00A6EB;
+    }
+    .header li button{
+        padding: 14px 42px;
+        background: #00A6EB;
+    border-radius: 5px;
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none;
+    position: relative;
+    transition: all 0.5s ease-in;
+    }
+    
+    
+    .header li button:hover{
+        transform: scale(1.1);
+        background: #00c8ff;
+        border-radius: 15px;
+        transition: all 0.5s ease-in;
+        }
+    
+    .header li button:active{
+    transform: scale(1.1);
+    background: #FFFFFF;
+    color: #00A6EB;
+    border-radius: 15px;
+    transition: all 0.2s ease-in;
+    }
+
+
+    .section_1_cerft{
+        text-align: center;
+    }
+    
+    .section_1_cerft h3{
+          margin: 100px 0 70px 0;
+            text-align: center;
+                margin-bottom: 80px;
+                 font-family: 'Comfortaa';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 37px;
+                line-height: 56px;
+                text-transform: uppercase;
+                color: #000000;
+        }
+
+    
+    
+        /* ---------------------------------Section_6---------------------------------------- */
+        .footer{
+            margin-top: 150px;
+            background: #00A6EB;
+            padding: 50px 0;
+        }
+        .footer ul li{
+            list-style: none;
+            margin-bottom:20px;
+        }
+        .footer li h3{
+            margin-bottom: 25px;
+            margin-top: 25px;
+            font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+        }
+        .footer li a{
+            text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+        }
+        .footer li p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+        } 
+        .img{
+            margin-right: 13px;
+        }
+        .copy_write{
+            padding: 30px 0 0 0 ;
+           margin-top: 50px;
+            border-top: 1px solid rgb(255, 255, 255);
+        }
+        .copy_write h5{
+            margin-right: 20px;
+            font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+        }
+        .copy_write p{
+    font-family: 'Comfortaa';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 138%;
+    color: #FFFFFF;
+        }
+        .copy_write img{
+            position: relative;
+            left: 5px;
+            top: -10px;
+        }
+
+
+        @media (max-width:850px) {
+            .logo_2{
+               display:none;
+            }
+            .logo_3{
+          display:none;
+            }
+
+            .copy_write{
+                text-align: center;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+            .copy_r{
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+            .copy_write img{
+                top: 0px;
+                left: 0px;
+            }
+        }
+
+
+        #fade-in{
+            animation-name: fade;
+            animation-duration: 3s;
+            animation-timing-function: ease-in-out;
+            animation-iteration-count: 1;
+        }
+
+        @keyframes fade {
+            from{
+               opacity:0;
+               transform: translate(0,300px);
+            }
+            to{
+            opacity: 1;
+            transform: translate(0);
+            }
+        }
